@@ -1,0 +1,36 @@
+/*
+	- For sites using fullheader (title + nav) and sticky navigation
+	- Makes navbar and utility bar sticky
+*/
+
+jQuery(function ($) {
+	var position = $('#nav').offset().top;
+
+	$('#nav').affix({
+		offset: {
+			top: position
+		}
+	});
+
+	function waitForElementToDisplay(selector, time, callback) {
+		if(document.querySelector(selector)!=null) {
+			callback();
+			return;
+		}
+		else {
+			setTimeout(function() {
+					waitForElementToDisplay(selector, time, callback);
+			}, time);
+		}
+	}
+
+waitForElementToDisplay('#unc-ub-wrapper',100,function() {
+	$('#unc-ub-wrapper').affix({
+		offset: {
+			top: position
+		}
+	});
+})
+
+	$('[data-toggle="tooltip"]').tooltip();
+});

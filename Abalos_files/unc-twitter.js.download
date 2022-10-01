@@ -1,0 +1,18 @@
+jQuery(document).ready(function($) {
+    $('.twitter-timeline').attr({"data-width":520,"data-height":300,"data-theme":"light","data-link-color":"#007fae"});
+    $.getScript("https://platform.twitter.com/widgets.js");
+    console.log('check');
+    /*skip link functions for twitter timeline accessibility*/
+    
+    $("#beforeTwitterTimeline").click( function() {
+      $("#afterTwitterTimeline").focus();
+      $("#afterTwitterTimeline").addClass('active');
+      $(this).removeClass('active');
+      });
+    
+    $("#afterTwitterTimeline").on('click', function() {
+      $("#beforeTwitterTimeline").focus();
+      $("#beforeTwitterTimeline").addClass('active');
+      $(this).removeClass('active');
+    });
+  });

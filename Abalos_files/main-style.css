@@ -1,0 +1,137 @@
+body{
+background-color:#ffffff;
+background-image: url();
+background-attachment: fixed;
+background-size: cover;
+}
+.abovefold {
+background-color:#ffffff;
+background-image: url();
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+width: 100%;
+}
+.abovefold a{color:#505962;}
+#unc-ub-wrapper.affix {
+	width: 100%;
+	z-index: 1000;
+}
+
+#nav.navbar-static-top.affix {
+	top: 30px;
+}
+
+.admin-bar #nav.navbar-static-top.affix {
+	top: 62px;
+}
+
+.admin-bar #unc-ub-wrapper.affix {
+	top: 32px;
+}
+
+@media (max-width: 782px) {
+	.admin-bar #unc-ub-wrapper.affix {
+		top: 46px;
+	}
+
+	.admin-bar #nav.navbar-static-top.affix {
+		top: 76px;
+	}
+}
+</style>
+<script type="text/javascript" src="./Abalos_files/jquery.js.download"></script>
+<script type="text/javascript" src="./Abalos_files/jquery-migrate.min.js.download"></script>
+<script type="text/javascript" src="./Abalos_files/toolset-common-es-frontend.js.download"></script>
+<script type="text/javascript" src="./Abalos_files/webalert.js.download"></script>
+<script type="text/javascript" src="./Abalos_files/revolution.tools.min.js.download"></script>
+<script type="text/javascript" src="./Abalos_files/rs6.min.js.download"></script>
+<script type="text/javascript" src="./Abalos_files/unc-twitter.js.download"></script>
+<script type="text/javascript" src="./Abalos_files/modernizr-2.7.0.min.js.download"></script>
+<script type="text/javascript" src="./Abalos_files/sticky_nav.js.download"></script>
+<link rel="https://api.w.org/" href="https://learningcenter.unc.edu/wp-json/">
+<link rel="alternate" type="application/json+oembed" href="https://learningcenter.unc.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flearningcenter.unc.edu%2Ftips-and-tools%2Fusing-concept-maps%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://learningcenter.unc.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flearningcenter.unc.edu%2Ftips-and-tools%2Fusing-concept-maps%2F&amp;format=xml">
+
+            <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','gaplusu');
+
+                function gaplus_track() {
+                                                gaplusu('create', 'UA-32420241-1', 'auto');
+                                                                                                    gaplusu('send', 'pageview');
+
+                                                gaplusu('create', 'UA-33290623-1', 'auto', {'name': 'single'});
+                                                                                                        gaplusu('single.send', 'pageview');
+                                    }
+
+                                    gaplus_track();
+
+            </script>
+
+		<meta name="id" content="7431">	<style>
+	#wp-admin-bar-asu_support_enabled {
+		background-color: #E00000!important;
+	}
+	</style>
+<meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://learningcenter.unc.edu"><link rel="https://theeventscalendar.com/" href="https://learningcenter.unc.edu/wp-json/tribe/events/v1/">    <style type="text/css">
+
+        .bg-primary, .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus, .label-primary, .nav-tabs li a:hover{
+            background-color: ;
+		}
+		.btn-primary {
+			background-color: ;
+		}
+		.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus{
+			background-color: ;
+		}
+        .panel-primary {
+            border-color: ;
+        }
+        .btn-primary.disabled, .btn-primary[disabled], fieldset[disabled] .btn-primary, .btn-primary.disabled:hover, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary:hover, .btn-primary.disabled:focus, .btn-primary[disabled]:focus, fieldset[disabled] .btn-primary:focus, .btn-primary.disabled:active, .btn-primary[disabled]:active, fieldset[disabled] .btn-primary:active, .btn-primary.disabled.active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary.active, .progress-bar, .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus, a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus, .panel-primary>.panel-heading {
+            background-color:;
+            border-color:;
+        }
+
+        .navbar-default {
+            background-color:;
+            border-color:;
+        }
+
+         .text-primary, .btn-primary .badge, .btn-link, .pagination>li>a, .pagination>li>span, a.list-group-item.active>.badge, .nav-pills>.active>a>.badge, .navbar-inverse .navbar-brand, .navbar-inverse .caret, .header-logo a:hover, .brand-logo a:hover, footer .widget ul>li:last-child a, footer ol.vcalendar li a, footer .widget ul li a, footer .widget ul li a:link, .widget ul.dropdown-menu li.active a:hover, footer.content-info a:hover, footer.content-info a {
+            color:;
+		}
+
+		a {
+			color:;
+		}
+		.widget ul li a:hover {
+			color:;
+		}
+
+        .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+            border-top-color: ;
+            border-right-color-value: ;
+            border-bottom-color: ;
+            border-left-color-value: ;
+        }
+
+        footer .widget ul>li a:hover, footer .widget ul>li:last-child a:hover {color: #fff;}
+
+        .btn-primary:hover,<div class="btn-primary:focus">	</div> {
+            background-color:;
+        }
+
+        .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li.active > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+            background-color:;
+        }
+
+        .navbar-default .navbar-toggle {
+            border-color: ;
+        }
+
+        a:hover, a:focus, footer.content-info a:hover {
+            color: ;
+        }
